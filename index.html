@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
-    <title>sendpulse_test</title>
+    <head>
+        <title> </title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -13,32 +14,52 @@
         <script src="js/skel.min.js"></script>
         <script src="js/skel-layers.min.js"></script>
         <script src="js/init.js"></script>
+	<script src="js/sp-push-worker-fb.js"></script>
         <noscript>
             <link rel="stylesheet" href="css/skel.css" />
             <link rel="stylesheet" href="css/style.css" />
             <link rel="stylesheet" href="css/style-xlarge.css" />
-<style>
- body {
-  <!--  background-image: url(img/123.jpg); /* Путь к фоновому изображению */ 
-    background-color: #d3ecf5; /* Цвет фона */ -->
-    }
-    
- h1
-{
-	color: orange;
-}
-</style>
-<!-- <script charset="UTF-8" src="//web.webpushs.com/js/push/64569ded8cc724874d60d20c09a969ca_1.js" async></script> -->
-	<script charset="UTF-8" src="//web.webpushs.com/js/push/64569ded8cc724874d60d20c09a969ca_1.js" async></script>
- </head>
-<body> 
-<h1><center>Title</center></h1>
-<p>
-<h1><center>
-<input class="sp_push_custom_data" type="text" name="phone" placeholder="phone">
-<input class="sp_push_custom_data" type="text" name="email" placeholder="email">
-<input type=submit value="подписаться"  class="sp_notify_prompt" ></center></h1>
-</p>
+        </noscript>
+        <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+<script charset="UTF-8" src="//web.webpushs.com/js/push/64569ded8cc724874d60d20c09a969ca_1.js" async></script>
+    </head>
+    <body class="landing">
+        <!-- Header -->
+        <header id="header" class="alt skel-layers-fixed">
+            <h1><a href="index.html">HTML5 Website <span>by Html5webtemplates.co.uk</span></a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="" class="icon fa-angle-down">Layouts</a>
+                        <ul>
+                            <li><a href="left-sidebar.html">Left Sidebar</a></li>
+                            <li><a href="right-sidebar.html">Right Sidebar</a></li>
+                            <li><a href="no-sidebar.html">No Sidebar</a></li>
+                            <li>
+                                <a href="">Submenu</a>
+                                <ul>
+                                    <li><a href="#">Option 1</a></li>
+                                    <li><a href="#">Option 2</a></li>
+                                    <li><a href="#">Option 3</a></li>
+                                    <li><a href="#">Option 4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="elements.html">Elements</a></li>
+                </ul>
+            </nav>
+        </header>
 
-	
-</html>
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h2>Magna Aliquam</h2>
+                <p>Sed lorem ipsum sed dolor nullam adipiscing</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button big scrolly">Learn More</a></li>
+                </ul>
+            </div>
+        </section>
